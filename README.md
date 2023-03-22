@@ -23,5 +23,5 @@
 
 1. Preview the project:
     ```bash
-    npm run previe
+    npm run preview
     ```
