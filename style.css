@@ -1,0 +1,26 @@
+/* Set the height of the body and html to 100% */
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+/* Divide the two divs vertically */
+#map {
+  height: 100%;
+  width: 40%;
+  float: left;
+}
+
+#panorama {
+  height: 100%;
+  width: 60%;
+  float: left;
+}
+
+/* Clear the float */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
