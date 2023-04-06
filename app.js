@@ -8,10 +8,7 @@
 
   const coordinates = data.map((e) => e.slice(2, 4));
 
-  const images = data.map((e) => {
-    const img = e[0].trim();
-    return img.substring(1, img.length - 1);
-  });
+  const images = data.map((e) => e[0].slice(1, -1));
 
   // Initialize the OpenLayers map
   const map = new ol.Map({
